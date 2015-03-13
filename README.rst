@@ -17,4 +17,7 @@ Put package in INSTALLED_APPS.::
 
 When you create new Django project and syncdb or migrate (depending on version)
 new admin user is created with login 'admin' and same password.
-For all the lazy people!
+For all the lazy people!::
+
+  Django 1.7 > python manage.py migrate
+  Django 1.7 < python manage.py syncdb --noinput
