@@ -1,10 +1,10 @@
 #  -*- coding: utf-8 -*-
 try:
-    from setuptools import setup
+    from setuptools import setup, find_packages
 except ImportError:
     from ez_setup import use_setuptools
     use_setuptools()
-    from setuptools import setup
+    from setuptools import setup, find_packages
 
 
 setup(
@@ -14,7 +14,7 @@ setup(
     author='Michal Klich',
     author_email='michal.klich@imagination.com',
     include_package_data=True,
-    packages=['djangosuperuser'],
+    packages=find_packages(),
     url='https://bitbucket.org/inirudebwoy/django-superuser',
     classifiers=[
         'Development Status :: 4 - Beta',

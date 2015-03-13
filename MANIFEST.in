@@ -1,0 +1,2 @@
+include README.rst
+include djangosuperuser/fixtures/initial_data.json
