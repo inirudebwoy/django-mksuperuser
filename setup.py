@@ -8,14 +8,14 @@ except ImportError:
 
 
 setup(
-    name='superuser',
+    name='django-superuser',
     version='0.1',
     description='Create super user with fixtures or migrations',
     author='Michal Klich',
     author_email='michal.klich@imagination.com',
     include_package_data=True,
-    packages=['superuser'],
-    url='https://bitbucket.org/inirudebwoy/superuser',
+    packages=['django-superuser'],
+    url='https://bitbucket.org/inirudebwoy/django-superuser',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
