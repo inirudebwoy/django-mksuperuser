@@ -9,7 +9,7 @@ except ImportError:
 
 setup(
     name='djangosuperuser',
-    version='0.1',
+    version='0.1.1',
     description='Create super user with fixtures or migrations',
     author='Michal Klich',
     author_email='michal.klich@imagination.com',

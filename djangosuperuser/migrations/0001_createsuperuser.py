@@ -1,7 +1,16 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db import migrations
+try:
+    from django.db.migrations import Migration, RunPython
+except ImportError:
+    # are you using South?
+    # south is also using migrations dir
+    class Migration(object):
+        def forwards(self, orm):
+            pass
+
+    RunPython = lambda x: x
 from django.contrib.auth.admin import User
 
 
@@ -16,11 +25,11 @@ def create_superuser(apps, schema_editor):
     superuser.save()
 
 
-class Migration(migrations.Migration):
+class Migration(Migration):
 
     dependencies = [
     ]
 
     operations = [
-        migrations.RunPython(create_superuser)
+        RunPython(create_superuser)
     ]
