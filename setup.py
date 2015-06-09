@@ -15,7 +15,7 @@ setup(
     author_email='michal@michalklich.com',
     include_package_data=True,
     packages=find_packages(),
-    url='https://bitbucket.org/inirudebwoy/django-superuser',
+    url='https://github.com/inirudebwoy/django-superuser',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',

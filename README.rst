@@ -2,8 +2,8 @@
 django-superuser
 ================
 
-Code can be found here.
-https://bitbucket.org/inirudebwoy/django-superuser
+Django app for lazy people.
+Creates superuser with no fuss.
 
 Installation
 ============
