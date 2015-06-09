@@ -1,19 +1,19 @@
-==============
+================
 django-superuser
-==============
+================
 
 Code can be found here.
 https://bitbucket.org/inirudebwoy/django-superuser
 
 Installation
 ============
-Install from cheeseshop.imagination.net::
+Install from pip::
 
-  easy_install -ZU -i https://cheeseshop:*****@cheeseshop.imagination.net/ djangosuperuser
+  pip install django-superuser
 
-Put package in INSTALLED_APPS.::
+Add package to INSTALLED_APPS.::
 
-  INSTALLED_APPS += ('djangosuperuser',)
+  INSTALLED_APPS += ('django_superuser',)
 
 When you create new Django project and syncdb or migrate (depending on version)
 new admin user is created with login 'admin' and same password.

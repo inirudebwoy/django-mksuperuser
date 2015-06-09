@@ -8,11 +8,11 @@ except ImportError:
 
 
 setup(
-    name='djangosuperuser',
+    name='django-superuser',
     version='0.1.1',
     description='Create super user with fixtures or migrations',
     author='Michal Klich',
-    author_email='michal.klich@imagination.com',
+    author_email='michal@michalklich.com',
     include_package_data=True,
     packages=find_packages(),
     url='https://bitbucket.org/inirudebwoy/django-superuser',
