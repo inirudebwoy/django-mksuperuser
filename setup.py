@@ -6,16 +6,17 @@ except ImportError:
     use_setuptools()
     from setuptools import setup, find_packages
 
+import django_mksuperuser
 
 setup(
-    name='django-superuser',
-    version='0.1.1',
-    description='Create super user with fixtures or migrations',
+    name='django-mksuperuser',
+    version=django_mksuperuser.__version__,
+    description='Make super user with fixtures or migrations',
     author='Michal Klich',
     author_email='michal@michalklich.com',
     include_package_data=True,
     packages=find_packages(),
-    url='https://github.com/inirudebwoy/django-superuser',
+    url='https://github.com/inirudebwoy/django-mksuperuser',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
