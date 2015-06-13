@@ -1,7 +1,9 @@
 ================
 django-superuser
 ================
-
+.. image:: https://travis-ci.org/inirudebwoy/django-superuser.svg?branch=develop
+  :target: https://travis-ci.org/inirudebwoy/django-superuser
+  
 Django app for lazy people.
 Creates superuser with no fuss.
 
