@@ -12,6 +12,7 @@ setup(
     name='django-mksuperuser',
     version=django_mksuperuser.__version__,
     description='Make super user with fixtures or migrations',
+    long_description=open('README.rst').read(),
     author='Michal Klich',
     author_email='michal@michalklich.com',
     include_package_data=True,
