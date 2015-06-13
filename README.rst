@@ -1,5 +1,5 @@
 ================
-django-superuser
+django-mksuperuser
 ================
 .. image:: https://travis-ci.org/inirudebwoy/django-mksuperuser.svg?branch=master
   :target: https://travis-ci.org/inirudebwoy/django-mksuperuser
