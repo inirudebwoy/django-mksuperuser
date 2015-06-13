@@ -4,11 +4,3 @@ python:
 - '3.3'
 - '3.4'
 script: nosetests
-deploy:
-  provider: pypi
-  user: michal.klich
-  password:
-    secure: oSuCSx/REe/3U7HZJu1b3SQUSKBnPcSwVD3fFf2AeVZrvZp2pptdJEceu0L/JGOaHp5+i5ZkenWFmA8OuBBaPfRJUei+Yorndh5BIi+McZ/CwXOLSIL8kCTdhy2OaGALMq/4PMWVOfd+FuDVI7NSGW+sSRpHTuSTvB7/6sTDdS6BTDRhzJj5z8fEMcYIZEACe+FGWndjYOK00GgoM8HJmje9azQgScL/51963Nsoj7Fn7ontthqqHimMWh7tp3t1APMy32kqUwLT+lNkijPXus5KbJMGWrrlyf9AWJWZaoFz/65pM+TLF4Isj50gpnRp5y4M6CnGFproE31vj4BN/FWfFTyIzXgnDYg/YnUA66FG8/UmqWamSxZiSKXLwvgGaRQsc5rHgR2C2vRPJZ3sMDY8oFzMFA0OXk46pjB+EyH3C6YZ6zwy/O/4Jss9sBaziubM5tqc2QxH2PMyXkloUTSYniZBSiJk341BMrXFoaM2S+eLbAVhzfNT+ei0R2O9y4oGT9DsZyYo1uCq82HvERtMj92LcFw/OMBQhztvkpGAA/vWnklJhVBVz377VQqjJmGNq5JDYGEjuJzLvg0/J46HOSqWBqHR98JOPMqgymikC0QqwWzBpC1c33sGLy+wDpZlZrM6pnX5QKMtBq60uM6yIjqSzxwHFjs3y63Hhtg=
-  on:
-    tags: true
-  distributions: "sdist bdist_wheel"
