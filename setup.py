@@ -1,12 +1,13 @@
 #  -*- coding: utf-8 -*-
+import django_mksuperuser
+
 try:
-    from setuptools import setup, find_packages
+    from setuptools import setup
 except ImportError:
     from ez_setup import use_setuptools
     use_setuptools()
-    from setuptools import setup, find_packages
+    from setuptools import setup
 
-import django_mksuperuser
 
 setup(
     name='django-mksuperuser',
@@ -16,7 +17,7 @@ setup(
     author='Michal Klich',
     author_email='michal@michalklich.com',
     include_package_data=True,
-    packages=find_packages(),
+    packages=['django_mksuperuser'],
     url='https://github.com/inirudebwoy/django-mksuperuser',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -27,6 +28,9 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ]
 )
