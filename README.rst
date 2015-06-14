@@ -1,8 +1,8 @@
-================
+==================
 django-mksuperuser
-================
+==================
 .. image:: https://travis-ci.org/inirudebwoy/django-mksuperuser.svg?branch=master
-  :target: https://travis-ci.org/inirudebwoy/django-mksuperuser
+   :target: https://travis-ci.org/inirudebwoy/django-mksuperuser
 
 Django app for lazy people.
 Creates superuser with no fuss.
