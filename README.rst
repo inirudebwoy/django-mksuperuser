@@ -4,6 +4,10 @@ django-mksuperuser
 .. image:: https://travis-ci.org/inirudebwoy/django-mksuperuser.svg?branch=master
    :target: https://travis-ci.org/inirudebwoy/django-mksuperuser
 
+.. image:: https://readthedocs.org/projects/django-freezer/badge/?version=latest
+   :target: https://readthedocs.org/projects/django-freezer/?badge=latest
+   :alt: Documentation Status
+
 Django app for lazy people.
 Creates superuser with no fuss.
 
